@@ -11,8 +11,8 @@ jobs:
     
         - name: Welcome messsage
           run: | 
-            chmod +x sellscript.sh  
-            ./sellscript.sh
+            chmod +x shellscript.sh  
+            ./shellscript.sh
             
 
         # - name: List Files
