@@ -10,7 +10,9 @@ jobs:
           uses: actions/checkout@v4
     
         - name: Welcome messsage
-          run: ./sellscript.sh
+          run: | 
+            chmod +x sellscript.sh  
+            ./sellscript.sh
             
 
         # - name: List Files
